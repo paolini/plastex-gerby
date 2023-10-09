@@ -5,6 +5,7 @@ from plasTeX.ConfigManager import BUILTIN, CODE, ENVIRON, ENVIRONMENT
 from plasTeX.ConfigManager import CODE, REGISTRY, COMMANDLINE, InvalidOptionError
 from plasTeX.ConfigManager import ConfigManager, TooManyValues, TooFewValues
 import collections
+collections.Callable = collections.abc.Callable
 
 DEFAULTS = \
 {

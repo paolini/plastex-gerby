@@ -57,7 +57,8 @@ class GerbyRenderable(Renderable):
         for child in self.childNodes:
           child.isItWhitespace = willItBeWhitespace(child)
 
-      return environment + "-" + self.ref + "-" + self.userdata["tag"] + "-" + self.id + ".tag"
+      # TODO hack / fix whilst testing Dan Halpern--Leistner's code
+      return str(environment) + "-" + str(self.ref) + "-" + str(self.userdata["tag"]) + "-" + str(self.id) + ".tag"
 
     # handle proofs
     if self.nodeName == "proof":
