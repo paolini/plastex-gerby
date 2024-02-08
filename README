@@ -1,1 +1,19 @@
 Documentation for Gerby (a fork of plasTeX, to be used for large online mathematical texts with stable cross-referencing) is available at the [Gerby project page](https://gerby-project.github.io).
+
+
+# building process
+
+```bash
+python -m pip install --upgrade build
+python -m build
+```
+
+# upload process
+
+You must create a token in your pypi.org account, use __token__ as username 
+and the token as password.
+
+```bash
+python -m pip install --upgrade twine
+python -m twine upload dist/*
+```

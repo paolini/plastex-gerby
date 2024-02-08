@@ -9,7 +9,7 @@ images = ['*.gif','*.png','*.jpg','*.jpeg','*.js','*.htc','*.svg']
 styles = ['*.css']
 javascript = ['*.js']
 
-setup(name="plasTeX",
+setup(name="plasTeX-gerby",
       description="LaTeX document processing framework",
       version="1.0",
       author="Kevin D. Smith",
