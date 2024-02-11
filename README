@@ -14,6 +14,8 @@ You must create a token in your pypi.org account, use __token__ as username
 and the token as password.
 
 ```bash
+TWINE_USERNAME=__token__
+TWINE_PASSWORD=pypi-yourSecretToken
 python -m pip install --upgrade twine
 python -m twine upload dist/*
 ```

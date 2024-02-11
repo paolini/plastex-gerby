@@ -11,6 +11,7 @@ javascript = ['*.js']
 
 setup(name="plasTeX-gerby",
       description="LaTeX document processing framework",
+      long_description="LaTeX document processing framework",
       version="1.0",
       author="Kevin D. Smith",
       author_email="Kevin.Smith@sas.com",
