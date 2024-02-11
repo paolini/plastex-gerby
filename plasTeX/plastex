@@ -10,7 +10,7 @@ from plasTeX.Logging import getLogger
 
 log = getLogger()
 
-__version__ = '1.0'
+__version__ = '1.0.2'
 
 def collect_renderer_config(config):
     plastex_dir = os.path.dirname(os.path.realpath(plasTeX.__file__))
@@ -26,7 +26,7 @@ def collect_renderer_config(config):
 
 def main(argv):
     """ Main program routine """
-    print('plasTeX version %s' % __version__)
+    print('plasTeX (gerby) version %s' % __version__)
 
     collect_renderer_config(config)
 
